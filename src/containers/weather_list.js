@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
-import {Sparklines} from 'react-sparkline';
-import {SparklinesLine} from 'react-sparkline';
+import {Sparklines} from 'react-sparklines';
+import {SparklinesLine} from 'react-sparklines';
 class WeatherList extends Component{
   renderWeather(cityData){
     const temps = cityData.list.map(weather => weather.main.temp);
